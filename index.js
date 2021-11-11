@@ -1,6 +1,6 @@
 var RC = require('ringcentral')
 var fs = require('fs')
-require('dotenv').load()
+require('dotenv').config()
 var async = require("async");
 
 var rcsdk = null
